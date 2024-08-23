@@ -83,12 +83,15 @@ namespace Laboratorio_4_Grupal
         {
             int contador = 0;
             foreach (var contacto in contactos)
-            {
-                contador++;
+            { contador++;
                 Console.WriteLine($"Contacto #{contador}");
                 contacto.MostrarContacto(contacto);
                 Console.WriteLine();
             }
+
+        }
+        public void Eliminar()
+        {
 
         }
 
